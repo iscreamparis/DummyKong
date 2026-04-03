@@ -1,21 +1,16 @@
 # Node
-frontend/node_modules/
-frontend/dist/
-frontend/.venv/
+node_modules/
+dist/
 
 # Python
-backend/__pycache__/
-backend/*.pyc
-backend/.venv/
-**/__pycache__/
+__pycache__/
 *.pyc
+.venv/
 
 # Rust
-fractal/target/
+target/
 
-# KONG
-.venv/
-node_modules/
+# KONG generated (do not ignore lockfiles — kong rules needs them)
 .cargo/
 
 # OS

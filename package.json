@@ -1,5 +1,5 @@
 {
-  "name": "dummykong-frontend",
+  "name": "dummykong",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
