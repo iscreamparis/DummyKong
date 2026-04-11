@@ -11,6 +11,7 @@ __pycache__/
 target/
 
 # KONG generated (do not ignore lockfiles — kong rules needs them)
+kong.rules
 .cargo/
 
 # OS
