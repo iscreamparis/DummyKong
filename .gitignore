@@ -1,11 +1,12 @@
-# Node
-node_modules/
+# Node (no trailing slash: kong makes node_modules and .venv SYMLINKS, which git
+# treats as files, so `node_modules/` alone let them be committed)
+node_modules
 dist/
 
 # Python
 __pycache__/
 *.pyc
-.venv/
+.venv
 
 # Rust
 target/
